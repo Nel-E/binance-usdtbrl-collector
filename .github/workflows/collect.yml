@@ -1,0 +1,46 @@
+name: Collect Binance USDTBRL public market data
+
+on:
+  schedule:
+    # Scheduled GitHub Actions may run late or occasionally be skipped.
+    - cron: '3,18,33,48 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: binance-usdtbrl-market-data
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run offline unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Collect Binance public market snapshot
+        id: market_data
+        continue-on-error: true
+        run: python collector.py
+      - name: Commit collected data or collection error
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A data/
+          if ! git diff --cached --quiet; then
+            git commit -m "market: refresh Binance USDTBRL snapshot [skip ci]"
+            git push
+          fi
+      - name: Flag collection error
+        if: steps.market_data.outcome == 'failure'
+        run: |
+          echo 'Binance collection failed; check data/status.json and consider data/latest.json stale.' >&2
+          exit 1

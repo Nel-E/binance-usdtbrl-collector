@@ -3,76 +3,63 @@
   "symbol": "USDTBRL",
   "source": "Binance public Spot REST market-data-only API (no credentials)",
   "api_base_url": "https://data-api.binance.vision",
-  "captured_at_utc": "2026-11-07T19:11:48Z",
-  "captured_at_brt": "2026-11-07T16:11:48-03:00",
-  "capture_duration_seconds": 3.59,
-  "binance_server_time_utc_at_start": "2026-11-07T19:11:45Z",
+  "captured_at_utc": "2026-11-07T19:26:50Z",
+  "captured_at_brt": "2026-11-07T16:26:50-03:00",
+  "capture_duration_seconds": 3.63,
+  "binance_server_time_utc_at_start": "2026-11-07T19:26:47Z",
   "spot": {
     "last_trade_price_brl_per_usdt": 5.5876,
     "best_bid_brl_per_usdt": 5.5876,
-    "best_bid_quantity_usdt": 160637.4,
+    "best_bid_quantity_usdt": 167003.8,
     "best_ask_brl_per_usdt": 5.5877,
-    "best_ask_quantity_usdt": 282601.0,
+    "best_ask_quantity_usdt": 103294.7,
     "mid_price_brl_per_usdt": 5.58765,
     "spread_brl": 0.0001,
     "spread_pct_of_mid": 0.00179
   },
   "rolling_24h": {
-    "price_change_pct": 1.5,
+    "price_change_pct": 1.333,
     "high_brl_per_usdt": 5.5899,
-    "low_brl_per_usdt": 5.5049,
-    "volume_usdt": 44409559.6,
-    "quote_volume_brl": 246470370.77366,
-    "number_of_trades": 34493
+    "low_brl_per_usdt": 5.5108,
+    "volume_usdt": 42428910.7,
+    "quote_volume_brl": 235572974.65791,
+    "number_of_trades": 34048
   },
   "candles": {
     "15m": {
       "interval": "15m",
       "latest_closed": {
-        "open_utc": "2026-11-07T18:45:00Z",
-        "close_utc": "2026-11-07T18:59:59Z",
-        "open": 5.5835,
-        "high": 5.5848,
-        "low": 5.5833,
-        "close": 5.5847,
-        "volume_usdt": 650265.4,
-        "quote_volume_brl": 3631189.34208,
-        "trades": 352,
-        "taker_buy_volume_usdt": 623892.1,
-        "closed": true
-      },
-      "current_incomplete": {
         "open_utc": "2026-11-07T19:00:00Z",
         "close_utc": "2026-11-07T19:14:59Z",
         "open": 5.5847,
         "high": 5.5877,
         "low": 5.5847,
+        "close": 5.5877,
+        "volume_usdt": 250284.6,
+        "quote_volume_brl": 1398144.44547,
+        "trades": 371,
+        "taker_buy_volume_usdt": 207864.3,
+        "closed": true
+      },
+      "current_incomplete": {
+        "open_utc": "2026-11-07T19:15:00Z",
+        "close_utc": "2026-11-07T19:29:59Z",
+        "open": 5.5877,
+        "high": 5.5877,
+        "low": 5.5876,
         "close": 5.5876,
-        "volume_usdt": 238768.4,
-        "quote_volume_brl": 1333796.14482,
-        "trades": 316,
-        "taker_buy_volume_usdt": 204049.0,
+        "volume_usdt": 220271.3,
+        "quote_volume_brl": 1230807.88833,
+        "trades": 255,
+        "taker_buy_volume_usdt": 199724.5,
         "closed": false
       },
       "sma7_closed": 5.585029,
-      "sma25_closed": 5.582456,
-      "macd_histogram_closed": -0.0014293,
-      "latest_volume_ratio_to_previous5": 1.142,
-      "latest_candle_buy_volume_pct": 95.94,
+      "sma25_closed": 5.5836,
+      "macd_histogram_closed": -0.0012412,
+      "latest_volume_ratio_to_previous5": 0.418,
+      "latest_candle_buy_volume_pct": 83.05,
       "closed_candles": [
-        {
-          "open_utc": "2026-11-07T09:00:00Z",
-          "close_utc": "2026-11-07T09:14:59Z",
-          "open": 5.5461,
-          "high": 5.5462,
-          "low": 5.5461,
-          "close": 5.5461,
-          "volume_usdt": 15780.5,
-          "quote_volume_brl": 87521.33715,
-          "trades": 96,
-          "taker_buy_volume_usdt": 11061.0,
-          "closed": true
-        },
         {
           "open_utc": "2026-11-07T09:15:00Z",
           "close_utc": "2026-11-07T09:29:59Z",
@@ -579,6 +566,19 @@
           "trades": 352,
           "taker_buy_volume_usdt": 623892.1,
           "closed": true
+        },
+        {
+          "open_utc": "2026-11-07T19:00:00Z",
+          "close_utc": "2026-11-07T19:14:59Z",
+          "open": 5.5847,
+          "high": 5.5877,
+          "low": 5.5847,
+          "close": 5.5877,
+          "volume_usdt": 250284.6,
+          "quote_volume_brl": 1398144.44547,
+          "trades": 371,
+          "taker_buy_volume_usdt": 207864.3,
+          "closed": true
         }
       ]
     },
@@ -604,10 +604,10 @@
         "high": 5.5877,
         "low": 5.5847,
         "close": 5.5876,
-        "volume_usdt": 238768.4,
-        "quote_volume_brl": 1333796.14482,
-        "trades": 316,
-        "taker_buy_volume_usdt": 204049.0,
+        "volume_usdt": 470555.9,
+        "quote_volume_brl": 2628952.3338,
+        "trades": 626,
+        "taker_buy_volume_usdt": 407588.8,
         "closed": false
       },
       "sma7_closed": 5.580243,
@@ -1141,24 +1141,24 @@
   },
   "depth": {
     "limit_per_side_requested": 100,
-    "last_update_id": 537061778,
+    "last_update_id": 537063281,
     "best_bid": 5.5876,
     "best_ask": 5.5877,
     "visible_bids": [
       {
         "price_brl": 5.5876,
-        "quantity_usdt": 160637.4,
-        "notional_brl": 897577.54
+        "quantity_usdt": 167003.8,
+        "notional_brl": 933150.43
       },
       {
         "price_brl": 5.5875,
-        "quantity_usdt": 4551.0,
-        "notional_brl": 25428.71
+        "quantity_usdt": 8504.8,
+        "notional_brl": 47520.57
       },
       {
-        "price_brl": 5.5874,
-        "quantity_usdt": 2684.4,
-        "notional_brl": 14998.82
+        "price_brl": 5.5871,
+        "quantity_usdt": 8.9,
+        "notional_brl": 49.73
       },
       {
         "price_brl": 5.587,
@@ -1172,18 +1172,8 @@
       },
       {
         "price_brl": 5.5868,
-        "quantity_usdt": 14544.1,
-        "notional_brl": 81254.98
-      },
-      {
-        "price_brl": 5.5867,
-        "quantity_usdt": 4451.0,
-        "notional_brl": 24866.4
-      },
-      {
-        "price_brl": 5.5866,
-        "quantity_usdt": 2684.8,
-        "notional_brl": 14998.9
+        "quantity_usdt": 7354.7,
+        "notional_brl": 41089.24
       },
       {
         "price_brl": 5.5862,
@@ -1202,8 +1192,8 @@
       },
       {
         "price_brl": 5.5847,
-        "quantity_usdt": 7772.1,
-        "notional_brl": 43404.85
+        "quantity_usdt": 210.2,
+        "notional_brl": 1173.9
       },
       {
         "price_brl": 5.5842,
@@ -1221,14 +1211,14 @@
         "notional_brl": 1328873.0
       },
       {
-        "price_brl": 5.583,
-        "quantity_usdt": 12.1,
-        "notional_brl": 67.55
-      },
-      {
         "price_brl": 5.5825,
         "quantity_usdt": 290.8,
         "notional_brl": 1623.39
+      },
+      {
+        "price_brl": 5.5814,
+        "quantity_usdt": 8630.4,
+        "notional_brl": 48169.71
       },
       {
         "price_brl": 5.5813,
@@ -1241,9 +1231,9 @@
         "notional_brl": 342.53
       },
       {
-        "price_brl": 5.5781,
-        "quantity_usdt": 8635.5,
-        "notional_brl": 48169.68
+        "price_brl": 5.5783,
+        "quantity_usdt": 897.8,
+        "notional_brl": 5008.2
       },
       {
         "price_brl": 5.578,
@@ -1251,9 +1241,9 @@
         "notional_brl": 1996.92
       },
       {
-        "price_brl": 5.577,
-        "quantity_usdt": 7499.9,
-        "notional_brl": 41826.94
+        "price_brl": 5.5778,
+        "quantity_usdt": 6602.0,
+        "notional_brl": 36824.64
       },
       {
         "price_brl": 5.5747,
@@ -1261,19 +1251,14 @@
         "notional_brl": 1730.94
       },
       {
-        "price_brl": 5.5729,
-        "quantity_usdt": 268.6,
-        "notional_brl": 1496.88
+        "price_brl": 5.5736,
+        "quantity_usdt": 268.5,
+        "notional_brl": 1496.51
       },
       {
-        "price_brl": 5.5722,
-        "quantity_usdt": 895.5,
-        "notional_brl": 4989.91
-      },
-      {
-        "price_brl": 5.571,
-        "quantity_usdt": 1795.0,
-        "notional_brl": 9999.94
+        "price_brl": 5.5731,
+        "quantity_usdt": 895.3,
+        "notional_brl": 4989.6
       },
       {
         "price_brl": 5.5701,
@@ -1294,13 +1279,38 @@
         "price_brl": 5.568,
         "quantity_usdt": 5420.2,
         "notional_brl": 30179.67
+      },
+      {
+        "price_brl": 5.5678,
+        "quantity_usdt": 808.2,
+        "notional_brl": 4499.9
+      },
+      {
+        "price_brl": 5.5666,
+        "quantity_usdt": 9.6,
+        "notional_brl": 53.44
+      },
+      {
+        "price_brl": 5.5661,
+        "quantity_usdt": 8.8,
+        "notional_brl": 48.98
       }
     ],
     "visible_asks": [
       {
         "price_brl": 5.5877,
-        "quantity_usdt": 282601.0,
-        "notional_brl": 1579089.61
+        "quantity_usdt": 103294.7,
+        "notional_brl": 577179.8
+      },
+      {
+        "price_brl": 5.5878,
+        "quantity_usdt": 5779.5,
+        "notional_brl": 32294.69
+      },
+      {
+        "price_brl": 5.5879,
+        "quantity_usdt": 313.2,
+        "notional_brl": 1750.13
       },
       {
         "price_brl": 5.588,
@@ -1314,8 +1324,8 @@
       },
       {
         "price_brl": 5.5889,
-        "quantity_usdt": 324.2,
-        "notional_brl": 1811.92
+        "quantity_usdt": 6199.0,
+        "notional_brl": 34645.59
       },
       {
         "price_brl": 5.589,
@@ -1329,8 +1339,13 @@
       },
       {
         "price_brl": 5.5895,
-        "quantity_usdt": 5895.7,
-        "notional_brl": 32954.02
+        "quantity_usdt": 9.1,
+        "notional_brl": 50.86
+      },
+      {
+        "price_brl": 5.5898,
+        "quantity_usdt": 219.0,
+        "notional_brl": 1224.17
       },
       {
         "price_brl": 5.5899,
@@ -1339,8 +1354,8 @@
       },
       {
         "price_brl": 5.59,
-        "quantity_usdt": 56398.5,
-        "notional_brl": 315267.61
+        "quantity_usdt": 56179.5,
+        "notional_brl": 314043.4
       },
       {
         "price_brl": 5.5908,
@@ -1431,21 +1446,6 @@
         "price_brl": 5.5991,
         "quantity_usdt": 100.0,
         "notional_brl": 559.91
-      },
-      {
-        "price_brl": 5.5995,
-        "quantity_usdt": 2.6,
-        "notional_brl": 14.56
-      },
-      {
-        "price_brl": 5.5998,
-        "quantity_usdt": 19.6,
-        "notional_brl": 109.76
-      },
-      {
-        "price_brl": 5.5999,
-        "quantity_usdt": 2113.0,
-        "notional_brl": 11832.59
       }
     ],
     "largest_visible_bid_walls": [
@@ -1456,8 +1456,8 @@
       },
       {
         "price_brl": 5.5876,
-        "quantity_usdt": 160637.4,
-        "notional_brl": 897577.54
+        "quantity_usdt": 167003.8,
+        "notional_brl": 933150.43
       },
       {
         "price_brl": 5.55,
@@ -1480,14 +1480,14 @@
         "notional_brl": 186713.93
       },
       {
-        "price_brl": 5.5868,
-        "quantity_usdt": 14544.1,
-        "notional_brl": 81254.98
-      },
-      {
         "price_brl": 5.548,
         "quantity_usdt": 12619.0,
         "notional_brl": 70010.21
+      },
+      {
+        "price_brl": 5.545,
+        "quantity_usdt": 12105.6,
+        "notional_brl": 67125.55
       }
     ],
     "largest_visible_ask_walls": [
@@ -1498,8 +1498,8 @@
       },
       {
         "price_brl": 5.5877,
-        "quantity_usdt": 282601.0,
-        "notional_brl": 1579089.61
+        "quantity_usdt": 103294.7,
+        "notional_brl": 577179.8
       },
       {
         "price_brl": 5.6,
@@ -1508,8 +1508,8 @@
       },
       {
         "price_brl": 5.59,
-        "quantity_usdt": 56398.5,
-        "notional_brl": 315267.61
+        "quantity_usdt": 56179.5,
+        "notional_brl": 314043.4
       },
       {
         "price_brl": 5.6399,
@@ -1527,26 +1527,26 @@
         "notional_brl": 79465.11
       },
       {
-        "price_brl": 5.6355,
-        "quantity_usdt": 7873.7,
-        "notional_brl": 44372.24
+        "price_brl": 5.6387,
+        "quantity_usdt": 8752.9,
+        "notional_brl": 49354.98
       }
     ],
     "depth_bands_midpoint": {
       "0.1%": {
-        "bid_notional_brl": 2604440.51,
-        "ask_notional_brl": 8150691.21,
-        "bid_share_pct": 24.22
+        "bid_notional_brl": 2524826.63,
+        "ask_notional_brl": 7182756.69,
+        "bid_share_pct": 26.01
       },
       "0.5%": {
-        "bid_notional_brl": 3180073.05,
-        "ask_notional_brl": 8612931.53,
-        "bid_share_pct": 26.97
+        "bid_notional_brl": 3090464.47,
+        "ask_notional_brl": 7644997.01,
+        "bid_share_pct": 28.79
       },
       "1.0%": {
-        "bid_notional_brl": 4504044.13,
-        "ask_notional_brl": 9393016.51,
-        "bid_share_pct": 32.41
+        "bid_notional_brl": 4414435.58,
+        "ask_notional_brl": 8425082.52,
+        "bid_share_pct": 34.38
       }
     },
     "warning": "Only a REST snapshot of top 100 levels per side. Resting walls can cancel, move or be spoofed; depth proportions are not probabilities."
